@@ -101,8 +101,10 @@ npm install
 
 ```env
 PORT=5000
-MONGO_URI=mongodb://127.0.0.1:27017/finance-dashboard
-JWT_SECRET=your_secret_key
+MONGO_URI=mongodb://127.0.0.1:27017/finance_dashboard
+JWT_SECRET=supersecretkey
+JWT_EXPIRES_IN=7d
+NODE_ENV=development
 ```
 
 ---
